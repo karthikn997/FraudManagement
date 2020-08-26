@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckejjnyffvoaaaaaaccddbhhddeyjjggbyvo",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "cke9ny5vp00033b73z1d6k1nt",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","id":"cke9nya2d00093b73ungh8fqo","columns":[{"type":"column","id":"cke9nya2d000a3b737gb5c3hk","slotName":"cke9nya2d00083b73dk6vqq0o","size":"12"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    },
+    "composition" : [ {
+      "elementId" : "ckejjnyaccdaaaaaahhddbhhddggzwuviiijj",
+      "elementLabel" : "List",
+      "propertyValues" : {
+        "listTitle" : "Awaiting Reports",
+        "table" : "x_406608_fraud_mgm_fraud_management",
+        "query" : "priority=1",
+        "columns" : "channel,number,desc,priority",
+        "limit" : "5",
+        "maxColumns" : "5",
+        "page" : "1",
+        "hideHeader" : false,
+        "hideTitle" : false,
+        "hideTitleRowCount" : false,
+        "hideRefreshButton" : false,
+        "hideLastRefreshedText" : false,
+        "hideLinks" : false,
+        "hideViewAll" : false,
+        "hideHighlightedValues" : false,
+        "hideCellFilter" : true,
+        "hideCheckboxHover" : true,
+        "hideColumnFiltering" : true,
+        "hideColumnGrouping" : true,
+        "hideColumnSorting" : false,
+        "hideFilterPanel" : false,
+        "hideFirstPage" : false,
+        "hideLastPage" : false,
+        "hideLimitSelector" : false,
+        "hideMenuButton" : true,
+        "hideMultiEdit" : false,
+        "hideDeclarativeActions" : false,
+        "hideNextPage" : false,
+        "hidePages" : false,
+        "hidePagination" : true,
+        "hidePanel" : true,
+        "hidePanelAdvanced" : false,
+        "hidePanelConditionDelete" : false,
+        "hidePanelFooter" : false,
+        "hidePanelRestore" : false,
+        "hidePreviousPage" : false,
+        "hideQuickEdit" : true,
+        "hideRange" : false,
+        "hideRowCount" : false,
+        "hideRowSelector" : false,
+        "hideSelectAll" : true,
+        "hideEmptyStateImage" : false,
+        "hideDBViews" : false,
+        "hideUnnecessaryRowSelectors" : true
+      },
+      "slot" : "cke9nya2d00083b73dk6vqq0o",
+      "definition" : {
+        "id" : "2b1c080881e05dc63b917044290b233f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+}, {
+  "elementId" : "ckejjobbapiaaaaaacddbhhddsggaeexccdv",
+  "elementLabel" : "List",
+  "propertyValues" : {
+    "listTitle" : "Critical Reports",
+    "table" : "x_406608_fraud_mgm_fraud_management",
+    "query" : "priority=1",
+    "columns" : "channel,number,desc,state",
+    "limit" : "5",
+    "maxColumns" : "5",
+    "page" : "1",
+    "hideHeader" : false,
+    "hideTitle" : false,
+    "hideTitleRowCount" : false,
+    "hideRefreshButton" : false,
+    "hideLastRefreshedText" : false,
+    "hideLinks" : false,
+    "hideViewAll" : false,
+    "hideHighlightedValues" : false,
+    "hideCellFilter" : true,
+    "hideCheckboxHover" : true,
+    "hideColumnFiltering" : true,
+    "hideColumnGrouping" : true,
+    "hideColumnSorting" : false,
+    "hideFilterPanel" : false,
+    "hideFirstPage" : false,
+    "hideLastPage" : false,
+    "hideLimitSelector" : false,
+    "hideMenuButton" : true,
+    "hideMultiEdit" : false,
+    "hideDeclarativeActions" : false,
+    "hideNextPage" : false,
+    "hidePages" : false,
+    "hidePagination" : true,
+    "hidePanel" : true,
+    "hidePanelAdvanced" : false,
+    "hidePanelConditionDelete" : false,
+    "hidePanelFooter" : false,
+    "hidePanelRestore" : false,
+    "hidePreviousPage" : false,
+    "hideQuickEdit" : true,
+    "hideRange" : false,
+    "hideRowCount" : false,
+    "hideRowSelector" : false,
+    "hideSelectAll" : true,
+    "hideEmptyStateImage" : false,
+    "hideDBViews" : false,
+    "hideUnnecessaryRowSelectors" : true
+  },
+  "slot" : "cke9o1apj000d3b73ctdeo2ql",
+  "definition" : {
+    "id" : "2b1c080881e05dc63b917044290b233f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+}, {
+  "elementId" : "ckejjoeeiigbaaaaaakddbhhddbbsulxbnk",
+  "elementLabel" : "List",
+  "propertyValues" : {
+    "listTitle" : "Completed Reports",
+    "table" : "x_406608_fraud_mgm_fraud_management",
+    "query" : "stateIN3,4,7",
+    "columns" : "channel,number,priority,desc,approval",
+    "limit" : "5",
+    "maxColumns" : "5",
+    "page" : "1",
+    "hideHeader" : false,
+    "hideTitle" : false,
+    "hideTitleRowCount" : false,
+    "hideRefreshButton" : false,
+    "hideLastRefreshedText" : false,
+    "hideLinks" : false,
+    "hideViewAll" : false,
+    "hideHighlightedValues" : false,
+    "hideCellFilter" : true,
+    "hideCheckboxHover" : true,
+    "hideColumnFiltering" : true,
+    "hideColumnGrouping" : true,
+    "hideColumnSorting" : false,
+    "hideFilterPanel" : false,
+    "hideFirstPage" : false,
+    "hideLastPage" : false,
+    "hideLimitSelector" : false,
+    "hideMenuButton" : true,
+    "hideMultiEdit" : false,
+    "hideDeclarativeActions" : false,
+    "hideNextPage" : false,
+    "hidePages" : false,
+    "hidePagination" : true,
+    "hidePanel" : true,
+    "hidePanelAdvanced" : false,
+    "hidePanelConditionDelete" : false,
+    "hidePanelFooter" : false,
+    "hidePanelRestore" : false,
+    "hidePreviousPage" : false,
+    "hideQuickEdit" : true,
+    "hideRange" : false,
+    "hideRowCount" : false,
+    "hideRowSelector" : false,
+    "hideSelectAll" : true,
+    "hideEmptyStateImage" : false,
+    "hideDBViews" : false,
+    "hideUnnecessaryRowSelectors" : true
+  },
+  "slot" : "cke9o48gc000l3b73yhcv11we",
+  "definition" : {
+    "id" : "2b1c080881e05dc63b917044290b233f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"column","id":"cke9ny5vp00043b738h7njx02","size":"12","rows":[{"type":"row","id":"cke9ny5vp00053b73bquob66e","slotName":"cke9ny5vp00033b73z1d6k1nt"},{"type":"row","id":"cke9o1apk000e3b734qbut814","slotName":"cke9o1apj000d3b73ctdeo2ql"},{"type":"row","slotName":"cke9o48gc000l3b73yhcv11we","id":"cke9o48gj000m3b73n3srtjno"}]},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Fraud Agent Landing Page</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-25 08:04:08</sys_created_on>
+        <sys_id>f2613ddadb7650106ca8a0f2ca9619d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fraud Agent Landing Page</sys_name>
+        <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f2613ddadb7650106ca8a0f2ca9619d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-25 08:10:36</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

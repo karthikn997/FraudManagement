@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="channel" table="x_406608_fraud_mgm_fraud_management" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insurance Fraud</label>
+            <language>en</language>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 07:58:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efb609bedbe250106ca8a0f2ca961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 07:58:57</sys_updated_on>
+            <value>insurance fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Fraud</label>
+            <language>en</language>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 07:58:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b609bedbe250106ca8a0f2ca961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 07:58:57</sys_updated_on>
+            <value>customer fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial Fraud</label>
+            <language>en</language>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 07:58:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fb609bedbe250106ca8a0f2ca961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 07:58:57</sys_updated_on>
+            <value>financial fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asset Fraud</label>
+            <language>en</language>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 07:58:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb609bedbe250106ca8a0f2ca961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 07:58:57</sys_updated_on>
+            <value>asset fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPR Fraud</label>
+            <language>en</language>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 07:58:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3b609bedbe250106ca8a0f2ca96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 07:58:57</sys_updated_on>
+            <value>ipr fraud</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>channel</element>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 07:58:57</sys_created_on>
+            <sys_id>2bb609bedbe250106ca8a0f2ca961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>channel</sys_name>
+            <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+            <sys_update_name>sys_choice_x_406608_fraud_mgm_fraud_management_channel</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 07:58:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

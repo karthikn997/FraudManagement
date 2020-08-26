@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description/>
+        <label>myview</label>
+        <name>x_406608_fraud_mgm_my_database_view</name>
+        <plural>muview</plural>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-19 08:11:42</sys_created_on>
+        <sys_id>f7893ad0dbf650106ca8a0f2ca96196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_406608_fraud_mgm_my_database_view</sys_name>
+        <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+        <sys_update_name>sys_db_view_f7893ad0dbf650106ca8a0f2ca96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-19 08:12:02</sys_updated_on>
+    </sys_db_view>
+</record_update>

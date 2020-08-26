@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Fraud Management" max_length="40" name="x_406608_fraud_mgm_fraud_management" sizeclass="23" type="collection">
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Insurance Fraud" sequence="0" value="insurance fraud"/>
+                <element inactive_on_update="false" label="Customer Fraud" sequence="1" value="customer fraud"/>
+                <element inactive_on_update="false" label="Financial Fraud" sequence="2" value="financial fraud"/>
+                <element inactive_on_update="false" label="Asset Fraud" sequence="3" value="asset fraud"/>
+                <element inactive_on_update="false" label="IPR Fraud" sequence="4" value="ipr fraud"/>
+            </choice>
+        </element>
+        <element label="Description of the issue" mandatory="true" max_length="1000" name="desc" type="string"/>
+        <element label="Number of customer accounts involved" max_length="40" name="number_of_acc" type="integer"/>
+        <element label="Suspect address" max_length="1000" name="suspect_address" type="string"/>
+        <element label="Suspect Email" max_length="40" name="suspect_email" type="string"/>
+        <element label="Suspect Name" mandatory="true" max_length="40" name="suspect_name" type="string"/>
+        <element label="Suspect contact number" max_length="10" name="suspect_number" type="integer"/>
+        <element label="Vendor Email" mandatory="true" max_length="40" name="vendor_email" type="string"/>
+        <element label="Vendor Name" mandatory="true" max_length="40" name="vendor_name" type="string"/>
+        <element label="Vendor contact number" mandatory="true" max_length="10" name="vendor_number" type="integer"/>
+    </element>
+</database>

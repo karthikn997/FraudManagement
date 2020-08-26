@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Vendor Details" section_id="9d5c2436dba250106ca8a0f2ca96196c" sys_domain="global" table="x_406608_fraud_mgm_fraud_management" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-19 05:01:51</sys_created_on>
+            <sys_id>8e2e42dcdb7e10106ca8a0f2ca961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_406608_fraud_mgm_fraud_management" sys_domain="global" view="Default view">9d5c2436dba250106ca8a0f2ca96196c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-19 05:01:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-19 05:01:51</sys_created_on>
+            <sys_id>022e42dcdb7e10106ca8a0f2ca961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_406608_fraud_mgm_fraud_management" sys_domain="global" view="Default view">9d5c2436dba250106ca8a0f2ca96196c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-19 05:01:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-19 05:01:51</sys_created_on>
+            <sys_id>822e42dcdb7e10106ca8a0f2ca961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_406608_fraud_mgm_fraud_management" sys_domain="global" view="Default view">9d5c2436dba250106ca8a0f2ca96196c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-19 05:01:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_email</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-19 05:01:51</sys_created_on>
+            <sys_id>062e42dcdb7e10106ca8a0f2ca961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_406608_fraud_mgm_fraud_management" sys_domain="global" view="Default view">9d5c2436dba250106ca8a0f2ca96196c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-19 05:01:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vendor Details</caption>
+            <header>false</header>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 06:03:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d5c2436dba250106ca8a0f2ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_406608_fraud_mgm_fraud_management</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+            <sys_update_name>sys_ui_section_9d5c2436dba250106ca8a0f2ca96196c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 06:03:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

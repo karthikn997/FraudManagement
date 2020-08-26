@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="suspect_email" label="Suspect Email" language="en" table="x_406608_fraud_mgm_fraud_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>suspect_email</element>
+            <help/>
+            <hint/>
+            <label>Suspect Email</label>
+            <language>en</language>
+            <name>x_406608_fraud_mgm_fraud_management</name>
+            <plural>Suspect Emails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-14 06:01:13</sys_created_on>
+            <sys_id>facb2cf2dba250106ca8a0f2ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Suspect Email</sys_name>
+            <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+            <sys_update_name>sys_documentation_x_406608_fraud_mgm_fraud_management_suspect_email_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-14 06:01:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>x_406608_fraud_mgm_fraud_management stat</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var ga = new GlideAjax('global.StateFlowAJAX');
+	ga.addParam('sysparm_name', 'getValidStates');
+	ga.addParam('sysparm_state', g_form.getValue('state'));
+	ga.addParam('sysparm_table', 'x_406608_fraud_mgm_fraud_management');
+	ga.addParam('sysparm_sys_class', 'sf_state_flow');
+	ga.getXML(clientScriptAjaxResponse);
+}
+
+function clientScriptAjaxResponse(serverResponse) {
+	//Clear the list and add only valid options
+	g_form.clearOptions('state');
+	var result = serverResponse.responseXML.getElementsByTagName('result');
+	if (result.length > 0) {
+		var value = result[0].getAttribute('values').split(',');
+		var label = result[0].getAttribute('labels').split(',');
+		for (var i = 0; i < value.length; i++)
+			g_form.addOption('state', value[i], label[i]);
+		var mandatory = result[0].getAttribute('mandatory').split(',');
+		var readonly = result[0].getAttribute('readonly').split(',');
+		var visible = result[0].getAttribute('visible').split(',');
+		var notmandatory = result[0].getAttribute('notmandatory').split(',');
+		var notreadonly = result[0].getAttribute('notreadonly').split(',');
+		var notvisible = result[0].getAttribute('notvisible').split(',');
+		for (var i=0; i < mandatory.length; i++)
+			if (mandatory[i])
+				g_form.setMandatory(mandatory[i], true);
+		for (var i=0; i < notmandatory.length; i++)
+			if (notmandatory[i])
+				g_form.setMandatory(notmandatory[i], false);
+		for (var i=0; i < readonly.length; i++)
+			if (readonly[i])
+				g_form.setReadOnly(readonly[i], true);
+		for (var i=0; i < notreadonly.length; i++)
+			if (notreadonly[i])
+				g_form.setReadOnly(notreadonly[i], false);
+		for (var i=0; i < visible.length; i++)
+			if (visible[i])
+				g_form.setDisplay(visible[i], true);
+		for (var i=0; i < notvisible.length; i++)
+			if (notvisible[i])
+				g_form.setDisplay(notvisible[i], false);
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-24 14:15:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbbcf542db3a10106ca8a0f2ca961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_406608_fraud_mgm_fraud_management stat</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+        <sys_update_name>sys_script_client_dbbcf542db3a10106ca8a0f2ca961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-24 14:15:07</sys_updated_on>
+        <table>x_406608_fraud_mgm_fraud_management</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</application>
+        <file_path/>
+        <instance_id>3a4db1d8dbcc6744536ad5b0cf961960</instance_id>
+        <instance_name>dev70913</instance_name>
+        <name>sys_script_client_dbbcf542db3a10106ca8a0f2ca961998</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;x_406608_fraud_mgm_fraud_management stat&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	var ga = new GlideAjax('global.StateFlowAJAX');
+	ga.addParam('sysparm_name', 'getValidStates');
+	ga.addParam('sysparm_state', g_form.getValue('state'));
+	ga.addParam('sysparm_table', 'x_406608_fraud_mgm_fraud_management');
+	ga.addParam('sysparm_sys_class', 'sf_state_flow');
+	ga.getXML(clientScriptAjaxResponse);
+}
+
+function clientScriptAjaxResponse(serverResponse) {
+	//Clear the list and add only valid options
+	g_form.clearOptions('state');
+	var result = serverResponse.responseXML.getElementsByTagName('result');
+	if (result.length &gt; 0) {
+		var value = result[0].getAttribute('values').split(',');
+		var label = result[0].getAttribute('labels').split(',');
+		for (var i = 0; i &lt; value.length; i++)
+			g_form.addOption('state', value[i], label[i]);
+		var mandatory = result[0].getAttribute('mandatory').split(',');
+		var readonly = result[0].getAttribute('readonly').split(',');
+		var visible = result[0].getAttribute('visible').split(',');
+		var notmandatory = result[0].getAttribute('notmandatory').split(',');
+		var notreadonly = result[0].getAttribute('notreadonly').split(',');
+		var notvisible = result[0].getAttribute('notvisible').split(',');
+		for (var i=0; i &lt; mandatory.length; i++)
+			if (mandatory[i])
+				g_form.setMandatory(mandatory[i], true);
+		for (var i=0; i &lt; notmandatory.length; i++)
+			if (notmandatory[i])
+				g_form.setMandatory(notmandatory[i], false);
+		for (var i=0; i &lt; readonly.length; i++)
+			if (readonly[i])
+				g_form.setReadOnly(readonly[i], true);
+		for (var i=0; i &lt; notreadonly.length; i++)
+			if (notreadonly[i])
+				g_form.setReadOnly(notreadonly[i], false);
+		for (var i=0; i &lt; visible.length; i++)
+			if (visible[i])
+				g_form.setDisplay(visible[i], true);
+		for (var i=0; i &lt; notvisible.length; i++)
+			if (notvisible[i])
+				g_form.setDisplay(notvisible[i], false);
+	}
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-24 14:15:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dbbcf542db3a10106ca8a0f2ca961998&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_406608_fraud_mgm_fraud_management stat&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm"&gt;29e8cca6dbe210106ca8a0f2ca961950&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Fraud Case Management"&gt;29e8cca6dbe210106ca8a0f2ca961950&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_dbbcf542db3a10106ca8a0f2ca961998&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-24 14:15:07&lt;/sys_updated_on&gt;&lt;table&gt;x_406608_fraud_mgm_fraud_management&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1771966456</payload_hash>
+        <record_name>x_406608_fraud_mgm_fraud_management stat</record_name>
+        <reverted_from/>
+        <source>69e800a2db2610106ca8a0f2ca9619fe</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-24 14:15:07</sys_created_on>
+        <sys_id>17bcf542db3a10106ca8a0f2ca96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17420d29aba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-24 14:15:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5fbcf542833a101004f814444309059a</update_guid>
+        <update_guid_history>5fbcf542833a101004f814444309059a:-1771966456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-24 14:29:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>033a3c8fe5fb4cecae63a83250511190</sys_id>
+        <sys_metadata>dbbcf542db3a10106ca8a0f2ca961998</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_406608_fraud_mgm_fraud_management stat</sys_name>
+        <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+        <sys_parent display_value="Fraud Management">a27948a2db2610106ca8a0f2ca9619a4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+        <sys_scope_delete display_value="">37ff30bbc2a94582aff67390ceb8ae04</sys_scope_delete>
+        <sys_update_name>sys_script_client_dbbcf542db3a10106ca8a0f2ca961998</sys_update_name>
+        <sys_update_version display_value="sys_script_client_dbbcf542db3a10106ca8a0f2ca961998">17bcf542db3a10106ca8a0f2ca96199b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-24 14:29:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

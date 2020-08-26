@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem">
+    <sys_ux_custom_content_root_elem action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>single</applicability>
+        <applicable_page display_value="Fraud Case Management">635169d6dbf250106ca8a0f2ca9619a0</applicable_page>
+        <attrs/>
+        <children/>
+        <component/>
+        <is_root>true</is_root>
+        <layout/>
+        <macroponent display_value="Fraud Agent Landing Page">f2613ddadb7650106ca8a0f2ca9619d9</macroponent>
+        <macroponent_config>{
+  "label" : ""
+}</macroponent_config>
+        <name>Fraud Agent Landing Page</name>
+        <order>0</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent/>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <placeholder display_value="Landing Page Placeholder">9461a15edb3650106ca8a0f2ca96195c</placeholder>
+        <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-25 08:04:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76613ddadb7650106ca8a0f2ca9619dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Fraud Agent Landing Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fraud Case Management" source="x_406608_fraud_mgm">29e8cca6dbe210106ca8a0f2ca961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fraud Case Management">29e8cca6dbe210106ca8a0f2ca961950</sys_scope>
+        <sys_update_name>sys_ux_custom_content_root_elem_76613ddadb7650106ca8a0f2ca9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-25 08:10:45</sys_updated_on>
+        <tree_root/>
+    </sys_ux_custom_content_root_elem>
+    <sys_variable_value action="delete_multiple" query="document_key=76613ddadb7650106ca8a0f2ca9619dc"/>
+</record_update>
